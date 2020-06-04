@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/SensorDataUI" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="li3NGLBZ9q.SensorDataUI" package="li3NGLBZ9q" required_version="2.3.1"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="tizen.org/feature/sensor.accelerometer"/>
+    <feature name="tizen.org/feature/sensor.gravity"/>
+    <feature name="tizen.org/feature/sensor.gyroscope"/>
+    <feature name="tizen.org/feature/network.internet"/>
+    <icon src="icon.png"/>
+    <name>SensorDataUI</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/telephony"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="enable" hwkey-event="enable"/>
+</widget>
